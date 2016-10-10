@@ -13,10 +13,10 @@ import { LoginComponent } from './login/login.component';
 import { NoContentComponent } from './no-content/no-content.component';
 
 
-import { DataService } from './_services/data.service';
+import { DataService } from './shared/_services/data.service';
 import { ROUTES } from './app.routes';
-import { AuthGuard } from './_guards/index';
-import { AuthenticationService } from './_services/index';
+import { AuthGuard } from './shared/_guards/index';
+import { AuthenticationService } from './shared/_services/index';
 
 
 /*

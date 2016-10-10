@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
-import { Client } from '../_models/client';
-import { ClientService } from '../_services/index';
+import { Client } from '../shared/_models/client';
+import { ClientService } from '../shared/_services/index';
 import { Observable } from 'rxjs';
 
 console.log('`Clients` component loaded asynchronously');

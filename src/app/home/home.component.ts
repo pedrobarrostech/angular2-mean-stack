@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { Http } from '@angular/http';
 import { FormGroup, FormControl, Validators, FormBuilder }  from '@angular/forms';
 
-import { DataService } from '../_services/data.service';
+import { DataService } from '../shared/_services/data.service';
 
 @Component({
   selector: 'app-home',
-  templateUrl: './home.component.html',
+  templateUrl: './home.template.html',
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {

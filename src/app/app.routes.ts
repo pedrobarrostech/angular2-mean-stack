@@ -6,7 +6,7 @@ import { HistoryComponent } from './history';
 import { NoContentComponent } from './no-content';
 
 import { LoginComponent } from './login/index';
-import { AuthGuard } from './_guards/index';
+import { AuthGuard } from './shared/_guards/index';
 import { DataResolver } from './app.resolver';
 
 const appRoutes: Routes = [
